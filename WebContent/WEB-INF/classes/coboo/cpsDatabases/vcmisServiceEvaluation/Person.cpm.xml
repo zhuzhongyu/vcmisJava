@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="Person" alias="${cpsDatabases/vcmisServiceEvaluation.Person}">
+		<sub-index-hash
+			type="coboo.cpsDatabases.vcmisServiceEvaluation.SubIndexFromDahHash">
+		</sub-index-hash>
+		<id name="personId">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.personId}</meta-data>
+		</id>
+		<id name="dah">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.dah}</meta-data>
+		</id>
+		<property name="name">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.name}</meta-data>
+		</property>
+		<property name="birthDate">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.birthDate}</meta-data>
+		</property>
+		
+		<property name="address">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.address}</meta-data>
+		</property>
+		<property name="sex">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.sex}</meta-data>
+		</property>
+		<property name="CreatTime">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.CreatTime}</meta-data>
+		</property>
+		<property name="if_HealthCheck">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_HealthCheck}</meta-data>
+		</property>
+		<component name="CreatDoctor"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.Doctor}" />
+		<component name="gxyInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.GxyInfo}" />
+		<component name="tnbInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.TnbInfo}" />
+		<component name="ycfInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.YcfInfo}" />
+		<component name="zlInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.ZlInfo}" />
+			<component name="nzzInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.NzzInfo}" />
+			<component name="gxbInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.GxbInfo}" />
+		<component name="respiratoryInfo"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.RespiratoryInfo}" />
+	</class>
+
+	<!-- #################class Doctor ####################### -->
+	<class name="Doctor" alias="${cpsDatabases/vcmisServiceEvaluation.Doctor}"
+		root="false">
+
+		<id name="DoctorId">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.DoctorId}</meta-data>
+		</id>
+		<property name="DoctorName">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.DoctorName}</meta-data>
+		</property>
+		<component name="org" ref-alias="${cpsDatabases/vcmisServiceEvaluation.Org}" />
+	</class>
+
+	<!-- #################class Org ####################### -->
+
+	<class name="Org" alias="${cpsDatabases/vcmisServiceEvaluation.Org}"
+		root="false">
+
+		<id name="OrgId">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.OrgId}</meta-data>
+		</id>
+		<property name="OrgName">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.OrgName}</meta-data>
+		</property>
+
+	</class>
+</compass-core-mapping>

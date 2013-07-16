@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="YcfInfo" alias="${cpsDatabases/vcmisServiceEvaluation.YcfInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">
+
+		<property name="preNatalVisit_1">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.preNatalVisit_1}</meta-data>
+		</property>
+		<property name="preNatalVisit_16to20Week">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.preNatalVisit_16to20Week}</meta-data>
+		</property>
+		<property name="preNatalVisit_21to24Week">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.preNatalVisit_21to24Week}</meta-data>
+		</property>
+		<property name="preNatalVisit_28to36Week">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.preNatalVisit_28to36Week}</meta-data>
+		</property>
+		<property name="preNatalVisit_37to40Week">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.preNatalVisit_37to40Week}</meta-data>
+		</property>
+		<property name="afterNatalVisit_1">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.afterNatalVisit_1}</meta-data>
+		</property>
+		<property name="afterNatalVisit_42Day">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.afterNatalVisit_42Day}</meta-data>
+		</property>
+		
+	</class>
+
+</compass-core-mapping>

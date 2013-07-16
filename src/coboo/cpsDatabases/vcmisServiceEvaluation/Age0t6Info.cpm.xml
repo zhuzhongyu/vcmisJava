@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="Age0t6Info" alias="${cpsDatabases/vcmisServiceEvaluation.Age0t6Info}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">
+
+		<property name="fatherName">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.fatherName}</meta-data>
+		</property>
+		<property name="motherName">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.motherName}</meta-data>
+		</property>
+		<property name="newBabyVisit_1">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.newBabyVisit_1}</meta-data>
+		</property>
+		<property name="newBabyVisit_fullMonth">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.newBabyVisit_fullMonth}</meta-data>
+		</property>
+		<property name="month_3">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_3}</meta-data>
+		</property>
+		<property name="month_6">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_6}</meta-data>
+		</property>
+		<property name="month_8">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_8}</meta-data>
+		</property>
+			<property name="month_12">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_12}</meta-data>
+		</property>
+			<property name="month_18">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_18}</meta-data>
+		</property>
+			<property name="month_24">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_24}</meta-data>
+		</property>
+			<property name="month_30">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_30}</meta-data>
+		</property>
+			<property name="month_36">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.month_36}</meta-data>
+		</property>
+			<property name="year_4">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.year_4}</meta-data>
+		</property>
+			<property name="year_5">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.year_5}</meta-data>
+		</property>
+			<property name="year_6">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.year_6}</meta-data>
+		</property>
+	</class>
+
+</compass-core-mapping>

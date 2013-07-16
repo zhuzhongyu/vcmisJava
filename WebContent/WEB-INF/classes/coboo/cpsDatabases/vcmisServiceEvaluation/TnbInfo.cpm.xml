@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="TnbInfo" alias="${cpsDatabases/vcmisServiceEvaluation.TnbInfo}"
+		extends="${cpsDatabases/vcmisServiceEvaluation.Info}" root="false">
+	</class>
+	
+	<class name="TnbService" alias="${cpsDatabases/vcmisServiceEvaluation.TnbService}" extends="${cpsDatabases/vcmisServiceEvaluation.Service}"
+		root="true">
+
+		<property name="serviceNumberInYear">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.serviceNumberInYear}</meta-data>
+		</property>
+		
+		<property name="if_BgOK">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_BpOK}</meta-data>
+		</property>
+		<property name="if_Test_BloodGlucose">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_Test_BloodGlucose}</meta-data>
+		</property>
+		<property name="otherDeal">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.otherDeal}</meta-data>
+		</property>
+		
+	</class>
+
+</compass-core-mapping>

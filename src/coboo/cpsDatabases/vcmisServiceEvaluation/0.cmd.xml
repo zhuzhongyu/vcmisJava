@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-meta-data PUBLIC 
+    "-//Compass/Compass Core Meta Data DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-meta-data-2.2.dtd">
+
+<compass-core-meta-data>
+	<meta-data-group id="cpsDatabases/vcmisServiceEvaluation"
+		displayName="cpsDatabases/vcmisServiceEvaluation Meta Data">
+		<description>cpsDatabases/vcmisServiceEvaluation Meta Data</description>
+		<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation</uri>
+
+
+		<!--====================== tables ===================== -->
+		<alias id="Person" displayName="社区居民">
+			<description>社区居民表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Person</uri>
+			<name>Person</name>
+		</alias>
+		<alias id="Doctor" displayName="医生">
+			<description>医生表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Doctor</uri>
+			<name>Doctor</name>
+		</alias>
+		<alias id="Org" displayName="机构">
+			<description>机构表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Org</uri>
+			<name>Org</name>
+		</alias>
+		<!-- ############################################################ -->
+			<alias id="Info" displayName="信息">
+			<description>信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Info</uri>
+			<name>Info</name>
+		</alias>
+		<alias id="GxyInfo" displayName="高血压信息">
+			<description>高血压信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/GxyInfo</uri>
+			<name>GxyInfo</name>
+		</alias>
+		<alias id="TnbInfo" displayName="糖尿病信息">
+			<description>糖尿病信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/TnbInfo</uri>
+			<name>TnbInfo</name>
+		</alias>
+		<alias id="YcfInfo" displayName="孕产妇信息">
+			<description>孕产妇信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/YcfInfo</uri>
+			<name>YcfInfo</name>
+		</alias>
+		<alias id="Age0t6Info" displayName="0-6岁儿童信息">
+			<description>0-6岁儿童信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Age0t6Info</uri>
+			<name>Age0t6Info</name>
+		</alias>
+		<alias id="GxbInfo" displayName="gxb信息">
+			<description>gxb信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/GxbInfo</uri>
+			<name>GxbInfo</name>
+		</alias>
+				<alias id="NzzInfo" displayName="nzz信息">
+			<description>nzz信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/NzzInfo</uri>
+			<name>NzzInfo</name>
+		</alias>
+		<alias id="ZlInfo" displayName="zl信息">
+			<description>zl信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/ZlInfo</uri>
+			<name>ZlInfo</name>
+		</alias>
+		
+		<alias id="RespiratoryInfo" displayName="zl信息">
+			<description>呼吸系统疾病信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/RespiratoryInfo</uri>
+			<name>RespiratoryInfo</name>
+		</alias>
+		
+			
+	<alias id="AcceptionRec2Info" displayName="zl信息">
+			<description>jz信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/AcceptionRec2Info</uri>
+			<name>AcceptionRec2Info</name>
+		</alias>
+		
+	<alias id="ConsultationRecInfo" displayName="hz信息">
+			<description>hz信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/ConsultationRecInfo</uri>
+			<name>ConsultationRecInfo</name>
+		</alias>
+		
+		<alias id="DisableRegInfo" displayName="disable信息">
+			<description>disable信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/DisableRegInfo</uri>
+			<name>DisableRegInfo</name>
+		</alias>
+		
+	<alias id="FamilyPlanRegInfo" displayName="FamilyPlanRegInfo信息">
+			<description>FamilyPlanRegInfo信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/FamilyPlanRegInfo</uri>
+			<name>FamilyPlanRegInfo</name>
+		</alias>
+		
+	<alias id="HeathCheckInfo" displayName="tj信息">
+			<description>tj信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/HeathCheckInfo</uri>
+			<name>HeathCheckInfo</name>
+		</alias>
+		
+	<alias id="InoculationCardInfo" displayName="InoculationCardInfo信息">
+			<description>InoculationCardInfo信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/InoculationCardInfo</uri>
+			<name>InoculationCardInfo</name>
+		</alias>
+		
+		<alias id="SevereMentalRegInfo" displayName="SevereMentalRegInfo信息">
+			<description>SevereMentalRegInfo病信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/SevereMentalRegInfo</uri>
+			<name>SevereMentalRegInfo</name>
+		</alias>
+		
+		
+		<alias id="WomenChkInfo" displayName="WomenChkInfo信息">
+			<description>WomenChkInfo信息表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/WomenChkInfo</uri>
+			<name>WomenChkInfo</name>
+		</alias>
+		<!-- ############################################################### -->
+		<alias id="GxyService" displayName="高血压服务">
+			<description>高血压服务表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/GxyService</uri>
+			<name>GxyService</name>
+		</alias>
+				<alias id="Service" displayName="服务">
+			<description>服务表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/Service</uri>
+			<name>Service</name>
+		</alias>
+		<alias id="TnbService" displayName="糖尿病服务">
+			<description>糖尿病服务表</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/TnbService</uri>
+			<name>TnbService</name>
+		</alias>
+
+        <alias id="YearService" displayName="年度随访服务">
+			<description>年度随访服务</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/alias/YearService</uri>
+			<name>YearService</name>
+		</alias>
+		
+	
+		<!--====================== fields====================== -->
+				
+		<meta-data id="personId" displayName="身份证号">
+			<description>居民身份证号</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/personId</uri>
+			<name>ResidentpersonId</name>
+		</meta-data>
+		<meta-data id="name" displayName="姓名">
+			<description>居民姓名</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/name</uri>
+			<name>name</name>
+		</meta-data>
+		<meta-data id="birthDate" displayName="生日">
+			<description>出生日期</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/birthDate</uri>
+			<name>birthDate</name>
+		</meta-data>
+		<meta-data id="CreatTime" displayName="doc create time">
+			<description>document create time</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/CreatTime</uri>
+			<name>CreatTime</name>
+		</meta-data>
+		<meta-data id="dah" displayName="档案号">
+			<description>档案号</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/dah</uri>
+			<name>dah</name>
+		</meta-data>
+		<meta-data id="address" displayName="居住地址">
+			<description>居民居住地址</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/address</uri>
+			<name>address</name>
+		</meta-data>
+				<meta-data id="sex" displayName="sex">
+			<description>sex</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/sex</uri>
+			<name>sex</name>
+		</meta-data>
+				<meta-data id="orgId" displayName="orgId">
+			<description>org id</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/orgId</uri>
+			<name>orgId</name>
+		</meta-data>
+		<meta-data id="if_HealthCheck" displayName="健康体检情况">
+			<description>是否进行了健康体检</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_HealthCheck</uri>
+			<name>if_healthCheck</name>
+		</meta-data>
+		<meta-data id="gxyInfo" displayName="高血压">
+			<description>高血压</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/gxyInfo</uri>
+			<name>gxyInfo</name>
+		</meta-data>
+		<meta-data id="tnbInfo" displayName="糖尿病">
+			<description>糖尿病</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/tnbInfo</uri>
+			<name>tnbInfo</name>
+		</meta-data>
+		<meta-data id="ycfInfo" displayName="孕产妇">
+			<description>孕产妇</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/ycfInfo</uri>
+			<name>ycfInfo</name>
+		</meta-data>
+		<meta-data id="age0t6Info" displayName="0-6岁儿童">
+			<description>0-6岁儿童</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/age0t6Info</uri>
+			<name>age0t6Info</name>
+		</meta-data>
+
+		<!-- =============================================== -->
+		<meta-data id="diagTime" displayName="确诊时间">
+			<description>病情确诊时间</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/diagTime</uri>
+			<name format="yyyy-MM-dd">diag_time</name>
+		</meta-data>
+		<meta-data id="if_standardManage" displayName="是否进行了规范管理">
+			<description>是否进行了规范管理</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_standardManage</uri>
+			<name>if_standardManage</name>
+		</meta-data>
+		<meta-data id="if_tnb" displayName="是否合并糖尿病">
+			<description>是否合并糖尿病</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_tnb</uri>
+			<name>if_tnb</name>
+		</meta-data>
+		<meta-data id="if_zl" displayName="是否肿瘤">
+			<description>是否肿瘤</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_zl</uri>
+			<name>if_zl</name>
+		</meta-data>
+		<meta-data id="if_respiratoryDisease" displayName="是否合并呼吸系统疾病">
+			<description>是否合并呼吸系统疾病</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_respiratoryDisease</uri>
+			<name>if_respiratoryDisease</name>
+		</meta-data>
+		<meta-data id="if_cerebral_vascular_disease" displayName="是否合并脑血管疾病">
+			<description>是否合并脑血管疾病</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_cerebral_vascular_disease</uri>
+			<name>if_cerebral_vascular_disease</name>
+		</meta-data>
+		<meta-data id="if_cardio_vascular_disease" displayName="是否合并心血管疾病">
+			<description>是否合并心血管疾病</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_cardio_vascular_disease</uri>
+			<name>if_cardio_vascular_disease</name>
+		</meta-data>
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<meta-data id="if_gxy" displayName="是否合并高血压">
+			<description>是否合并高血压</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_gxy</uri>
+			<name>if_gxy</name>
+		</meta-data>
+		<!-- ==================gxy============================== -->
+
+		<meta-data id="year" displayName="年度">
+			<description>年度</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/year</uri>
+			<name>year</name>
+		</meta-data>
+		<meta-data id="serviceNumberInYear" displayName="第几次服务">
+			<description>年度第几次服务</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/serviceNumberInYear</uri>
+			<name>serviceNumberInYear</name>
+		</meta-data>
+		<meta-data id="serviceTime" displayName="服务提供时间">
+			<description>健康管理服务提供的时间</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/serviceTime</uri>
+			<name>serviceTime</name>
+		</meta-data>
+		<meta-data id="if_BpOK" displayName="血压控制满意情况">
+			<description>随访血压控制满意情况</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_BpOK</uri>
+			<name>if_BpOK</name>
+		</meta-data>
+		<meta-data id="otherDeal" displayName="转诊">
+			<description>转诊或者其他处理</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/otherDeal</uri>
+			<name>otherDeal</name>
+		</meta-data>
+		<!-- ~~~~~~~~~~~~~糖尿病~~~~~~~~~~~~ -->
+		<meta-data id="if_BgOK" displayName="血糖控制满意情况">
+			<description>随访血糖控制满意情况</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_BgOK</uri>
+			<name>if_BgOK</name>
+		</meta-data>
+		<meta-data id="if_Test_BloodGlucose" displayName="是否测量了血糖">
+			<description>随访血压控制满意情况</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/if_Test_BloodGlucose</uri>
+			<name>if_Test_BloodGlucose</name>
+		</meta-data>
+		<!-- ============================================ -->
+		<meta-data id="DoctorId" displayName="医生编号">
+			<description>医生编号</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/DoctorId</uri>
+			<name>DoctorId</name>
+		</meta-data>
+		<meta-data id="DoctorName" displayName="医生姓名">
+			<description>医生姓名</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/DoctorName</uri>
+			<name>DoctorName</name>
+		</meta-data>
+
+		<!-- ================================================= -->
+		<meta-data id="OrgId" displayName="机构编号">
+			<description>机构编号</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/OrgId</uri>
+			<name>OrgId</name>
+		</meta-data>
+		<meta-data id="OrgName" displayName="机构名称">
+			<description>机构名称</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/OrgName</uri>
+			<name>OrgName</name>
+		</meta-data>
+		<!-- ================================================ -->
+		<meta-data id="preNatalVisit_1" displayName="第一次产前随访">
+			<description>第一次产前随访</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/preNatalVisit_1</uri>
+			<name>preNatalVisit_1</name>
+		</meta-data>
+		<meta-data id="preNatalVisit_16to20Week" displayName="16-20周产前随访">
+			<description>16-20周产前随访</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/preNatalVisit_16to20Week</uri>
+			<name>preNatalVisit_16to20Week</name>
+		</meta-data>
+		<meta-data id="preNatalVisit_21to24Week" displayName="21-24周产前随访">
+			<description>21-24周产前随访</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/preNatalVisit_21to24Week</uri>
+			<name>preNatalVisit_21to24Week</name>
+		</meta-data>
+		<meta-data id="preNatalVisit_28to36Week" displayName="28-36周产前随访">
+			<description>28-36周产前随访</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/preNatalVisit_28to36Week</uri>
+			<name>preNatalVisit_28to36Week</name>
+		</meta-data>
+		<meta-data id="preNatalVisit_37to40Week" displayName="37-40周产前随访">
+			<description>37-40周产前随访</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/preNatalVisit_37to40Week</uri>
+			<name>preNatalVisit_37to40Week</name>
+		</meta-data>
+		<meta-data id="afterNatalVisit_1" displayName="产后访视">
+			<description>产后访视</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/afterNatalVisit_1</uri>
+			<name>afterNatalVisit_1</name>
+		</meta-data>
+		<meta-data id="afterNatalVisit_42Day" displayName="产后42天访视">
+			<description>产后42天访视</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/afterNatalVisit_42Day</uri>
+			<name>afterNatalVisit_42Day</name>
+		</meta-data>
+		<!-- ============================================================== -->
+		<meta-data id="fatherName" displayName="父亲姓名">
+			<description>父亲姓名</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/fatherName</uri>
+			<name>fatherName</name>
+		</meta-data>
+		<meta-data id="motherName" displayName="母亲姓名">
+			<description>母亲姓名</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/motherName</uri>
+			<name>motherName</name>
+		</meta-data>
+		<meta-data id="newBabyVisit_1" displayName="新生儿家庭访视">
+			<description>新生儿家庭访视</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/newBabyVisit_1</uri>
+			<name>newBabyVisit_1</name>
+		</meta-data>
+		<meta-data id="newBabyVisit_fullMonth" displayName="新生儿满月健康管理">
+			<description>新生儿满月健康管理</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/newBabyVisit_fullMonth</uri>
+			<name>newBabyVisit_fullMonth</name>
+		</meta-data>
+		<meta-data id="month_3" displayName="3月龄">
+			<description>3月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_3</uri>
+			<name>month_3</name>
+		</meta-data>
+		<meta-data id="month_6" displayName="6月龄">
+			<description>6月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_6</uri>
+			<name>month_6</name>
+		</meta-data>
+		<meta-data id="month_8" displayName="8月龄">
+			<description>8月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_8</uri>
+			<name>month_8</name>
+		</meta-data>
+		<meta-data id="month_12" displayName="12月龄">
+			<description>12月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_12</uri>
+			<name>month_12</name>
+		</meta-data>
+			<meta-data id="month_18" displayName="18月龄">
+			<description>18月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_18</uri>
+			<name>month_18</name>
+		</meta-data>
+		<meta-data id="month_24" displayName="24月龄">
+			<description>24月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_24</uri>
+			<name>month_24</name>
+		</meta-data>
+		<meta-data id="month_30" displayName="30月龄">
+			<description>30月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_30</uri>
+			<name>month_30</name>
+		</meta-data>
+		<meta-data id="month_36" displayName="36月龄">
+			<description>36月龄</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/month_36</uri>
+			<name>month_36</name>
+		</meta-data>
+		<meta-data id="year_4" displayName="4岁">
+			<description>4岁</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/year_4</uri>
+			<name>year_4</name>
+		</meta-data>
+		<meta-data id="year_5" displayName="5岁">
+			<description>5岁</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/year_5</uri>
+			<name>year_5</name>
+		</meta-data>
+		<meta-data id="year_6" displayName="6岁">
+			<description>6岁</description>
+			<uri>http://coboo/cpsDatabases/vcmisServiceEvaluation/year_6</uri>
+			<name>year_6</name>
+		</meta-data>
+
+	</meta-data-group>
+
+
+</compass-core-meta-data>
+

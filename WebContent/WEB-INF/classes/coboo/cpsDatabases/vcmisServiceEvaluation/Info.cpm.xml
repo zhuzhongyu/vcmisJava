@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="Info" alias="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">
+<id name="id" />
+	
+		<property name="if_standardManage">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_standardManage}</meta-data>
+		</property>
+		<property name="if_tnb">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_tnb}</meta-data>
+		</property>
+		<property name="if_zl">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_zl}</meta-data>
+		</property>
+		<property name="if_respiratoryDisease">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_respiratoryDisease}</meta-data>
+		</property>
+		<property name="if_cerebral_vascular_disease">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_cerebral_vascular_disease}</meta-data>
+		</property>
+		<property name="if_cardio_vascular_disease">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_cardio_vascular_disease}</meta-data>
+		</property>
+		<component name="yearServices"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.YearService}" />
+		
+		<property name="diagTime">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.diagTime}</meta-data>
+		</property>
+			<component name="doctor"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.Doctor}" />
+	</class>
+	
+		<class name="GxbInfo" alias="${cpsDatabases/vcmisServiceEvaluation.GxbInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">		
+	</class>
+	<class name="NzzInfo" alias="${cpsDatabases/vcmisServiceEvaluation.NzzInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+		</class>
+		<class name="ZlInfo" alias="${cpsDatabases/vcmisServiceEvaluation.ZlInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+	
+		<class name="RespiratoryInfo" alias="${cpsDatabases/vcmisServiceEvaluation.RespiratoryInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+	<!-- ############################################################################ -->
+	<class name="AcceptionRec2Info" alias="${cpsDatabases/vcmisServiceEvaluation.AcceptionRec2Info}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		<class name="ConsultationRecInfo" alias="${cpsDatabases/vcmisServiceEvaluation.ConsultationRecInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		<class name="DisableRegInfo" alias="${cpsDatabases/vcmisServiceEvaluation.DisableRegInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		
+		<class name="FamilyPlanRegInfo" alias="${cpsDatabases/vcmisServiceEvaluation.FamilyPlanRegInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		<class name="HeathCheckInfo" alias="${cpsDatabases/vcmisServiceEvaluation.HeathCheckInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		<class name="InoculationCardInfo" alias="${cpsDatabases/vcmisServiceEvaluation.InoculationCardInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		<class name="SevereMentalRegInfo" alias="${cpsDatabases/vcmisServiceEvaluation.SevereMentalRegInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>
+		
+		<class name="WomenChkInfo" alias="${cpsDatabases/vcmisServiceEvaluation.WomenChkInfo}" extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">	
+	</class>	
+		
+</compass-core-mapping>
+

@@ -1,0 +1,20 @@
+11.5
+1.添加了删除单个文件jsp，当列表中只有一个文件时候将删除索引中对应的项
+2.修改了table包中所有的table类添加了Keys和Values数组成员，该成员在索引中负责标记
+11.13
+1.解决了删除错误
+2.使用了multiReader
+3.废除了writer.java
+4.解决了新建社区报错问题
+
+11.17-2
+xzqy表增加一个字段 cityName varchar(50)
+community 增加一个字段 parentName varhcar(50)
+alter table xzqy add column cityName varchar(50);
+alter table community add column parentName varchar(50);
+11.17-3
+将createrId加入索引了
+11.20
+增加了范围统计，and，or联合统计新key串格式，新增/jsp/vcmis/stat.jsp
+11:23
+OldDocDriver.java修改；同一个数据元不同id用：分开，营口个人基本信息表转换完成

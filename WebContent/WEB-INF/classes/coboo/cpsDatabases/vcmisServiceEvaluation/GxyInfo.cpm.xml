@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+<!-- #############Gxy Info##################### -->
+	<class name="GxyInfo" alias="${cpsDatabases/vcmisServiceEvaluation.GxyInfo}"  extends="${cpsDatabases/vcmisServiceEvaluation.Info}"
+		root="false">		
+	</class>
+	<!-- ################Year Service##################### -->
+	<class name="YearService"
+		alias="${cpsDatabases/vcmisServiceEvaluation.YearService}" root="false">
+		<property name="year">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.year}</meta-data>
+		</property>
+		<component name="servicesOfYear"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.Service}" />
+	</class>
+	<!-- ################Gxy Service######################## -->
+	<class name="GxyService" alias="${cpsDatabases/vcmisServiceEvaluation.GxyService}" extends="${cpsDatabases/vcmisServiceEvaluation.Service}"
+		root="true">
+	
+		<property name="serviceNumberInYear">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.serviceNumberInYear}</meta-data>
+		</property>
+		<property name="if_BpOK">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.if_BpOK}</meta-data>
+		</property>
+		<property name="otherDeal">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.otherDeal}</meta-data>
+		</property>
+		
+	</class>
+
+</compass-core-mapping>

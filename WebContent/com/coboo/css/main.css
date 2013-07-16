@@ -1,0 +1,82 @@
+/* CSS file */
+
+Application
+{
+	fontSize: 12;
+}
+
+global
+{
+	font-size: 12;
+	font-family: "����";
+}
+
+ApplicationControlBar
+{
+	backgroundColor: #CBCDCF;
+}
+
+Alert
+{ 
+	fontSize: 12;
+	modalTransparency:0.0; 
+	modalTransparencyBlur:0; 
+}
+
+ToolTip
+{
+	fontSize: 12;
+	fontFamily: "����";
+}
+
+ButtonBar
+{
+	fontSize:12;
+	fontWeight:normal;
+}
+
+LinkButton
+{
+	textDecoration: "underline" ;
+	themeColor: "#F6F0F0";
+}
+.Tooltip
+{
+	fontSize:14;
+}
+TitleWindow
+{
+	borderAlpha:1.0;
+	fontSize: 12;
+}
+
+.errorTip
+{
+	fontSize:13;
+}
+
+.dataGridStyles  
+{  
+	textAlign: center;  
+}  
+
+.printPageStyle {
+	font-size: 10;
+	background-color: #ffffff;	
+}
+		
+	.gradientlines {
+			spinner-type: gradientlines;
+			spinner-color: #ffffff;
+			spinner-highlight-color: #000000;
+		}
+		
+		.circles {
+			spinner-type: circles;	
+		}
+		
+		.lines {
+			spinner-type: lines;
+			spinner-highlight-color: #000000;
+			spinner-color: #808080;
+		}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE compass-core-mapping PUBLIC 
+    "-//Compass/Compass Core Mapping DTD 2.2//EN"
+    "http://www.compass-project.org/dtd/compass-core-mapping-2.2.dtd">
+
+<compass-core-mapping package="coboo.cpsDatabases.vcmisServiceEvaluation">
+
+	<class name="Service" alias="${cpsDatabases/vcmisServiceEvaluation.Service}" 
+		root="true">
+			<sub-index-hash
+			type="coboo.cpsDatabases.vcmisServiceEvaluation.SubIndexFromServiceIdHash">
+		</sub-index-hash>
+			<id name="id"/>			
+		
+		
+		<property name="serviceTime">
+			<meta-data>${cpsDatabases/vcmisServiceEvaluation.serviceTime}</meta-data>
+		</property>
+				<reference name="doctor"
+			ref-alias="${cpsDatabases/vcmisServiceEvaluation.Doctor}" />
+	</class>
+
+</compass-core-mapping>
